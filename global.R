@@ -24,7 +24,7 @@ dtm.to.Matrix<- function(dtm){
   return(m)
 }
 
-load("//dom1/Core/Dept/GED/SSBA/Group/GSS/STATS/EliseUMBC/Tutorial/App-1/NTSB.RData")
+load("NTSB.RData")
 
 #create a "corpus", a single object which contains all of the reports as elements
 NTSB<-Corpus(VectorSource(NTSBcsv$narr_cause))
